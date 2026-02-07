@@ -22,9 +22,9 @@ CityTier = st.selectbox("The City category", ["Tier1", "Tier2", "Tier3"])
 Occupation = st.selectbox("Customer Occupation", ["Salaried", "Freelancer"])
 Gender = st.selectbox("Gender of the customer", ["Male", "Female"])
 Martial_Status = st.selectbox("Martial status of the customer", ["Single", "Married","Divorced"])
-Designation = st.selectbox("Designation of the customer", ["Executive", "Managerial","Professional","Self-Employed"]
+Designation = st.selectbox("Designation of the customer", ["Executive", "Managerial","Professional","Self-Employed"])
 
-Age = st.number_input("App Size (MB)", min_value=1.0, max_value=120.0, value=18.0, step=0.1)
+Age = st.number_input("Customer Age", min_value=1.0, max_value=120.0, value=18.0, step=0.1)
 NumberOfPersonVisiting = st.number_input("Total num of people accompanying the customer", min_value=1.0, max_value=1000.0, value=1.0, step=1)
 PreferredPropertyStar = st.number_input("Preferred hotel rating y the customer",min_value=1.0, max_value=10.0, value=1.0, step=1)
 NumberOfTrips = st.number_input("Avg num of trips the customer takes annually",min_value=1.0, max_value=10.0, value=1.0, step=1)
